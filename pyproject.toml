@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tts_webui_extension.srt_tools"
-version = "0.1.1"
+version = "0.1.2"
 description = "Import and parse multiple SRT files into JSON segments for later TTS batching."
 readme = "README.md"
 authors = [
@@ -23,4 +23,4 @@ dependencies = [
 urls = { "Homepage" = "https://github.com/rsxdalv/tts_webui_extension.srt_tools" }
 
 [tool.setuptools.packages.find]
-namespace = true
+namespaces = true
