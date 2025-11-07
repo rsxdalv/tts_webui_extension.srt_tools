@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tts_webui_extension.srt_tools"
-version = "0.1.0"
+version = "0.1.1"
 description = "Import and parse multiple SRT files into JSON segments for later TTS batching."
 readme = "README.md"
 authors = [
-    { name="rsxdalv", email="" }
+    { name="rsxdalv" }
 ]
 requires-python = ">=3.7"
 classifiers = [
